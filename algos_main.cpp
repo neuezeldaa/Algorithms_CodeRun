@@ -14,7 +14,7 @@ int main()
     //cout << "The key [i] doesn't work? " << Keybord() <<endl;
    
     //cout << "Count of different numbers in the list: " << Different_numbers() << endl;
-
+    string str = "очень люблю Викулика";
     return 0;
 }
 
