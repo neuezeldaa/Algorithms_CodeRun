@@ -185,3 +185,27 @@ int kubiki(int N, int M)
 
     return 0;
 }
+
+
+//Задача 58: На калькуляторе есть 3 цифры: x y z. Пользователь хочет ввести число N. Определить, 
+//Сколько цифр нужно добавить калькулятору для того, чтоб вывести N.
+int OpenCalculator(int x, int y, int z, int N)
+{
+    int c = 0;
+    set<int> digits;
+    string str_N = to_string(N);
+    for (int i = 0; i < size(str_N); i++) {
+        digits.insert(N % 10);
+        N /= 10;
+    }
+
+    for (int n : digits) {
+        if (n == x or n == y or n == z) {
+            continue;
+        }
+        else {
+            c++;
+        }
+    }
+    return c;
+}

@@ -19,6 +19,7 @@ int main()
 
     //cout << "Colors of kubiki:" << kubiki(3, 4) << endl;
 
+    //cout << "Count of added numbers: " << OpenCalculator(1, 2, 3, 456789) << endl;
 
     return 0;
 }
