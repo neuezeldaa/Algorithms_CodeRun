@@ -17,6 +17,9 @@ int main()
    
     //cout << "Exercise about poliglotes" << poliglott() << endl;
 
+    //cout << "Colors of kubiki:" << kubiki(3, 4) << endl;
+
+
     return 0;
 }
 
