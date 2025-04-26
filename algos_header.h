@@ -21,3 +21,6 @@ int Keybord();
 
 //Задача 62: Количество различных чисел в списке
 int Different_numbers();
+
+
+int poliglott();
