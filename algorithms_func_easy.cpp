@@ -209,3 +209,43 @@ int OpenCalculator(int x, int y, int z, int N)
     }
     return c;
 }
+
+
+//Задача 324: Много стульев. Мужик покупает стулья и продает их. 
+//Нужно найти максимальную выгоду, учитывая, что в городе есть N продавцов, которые продают по 1 стулу по определенной цене
+//И есть M покупателей, которые покупают по 1 стулу по определенной цене.
+int AlotOfChairs(int N, int M)
+{
+    if (N == 0 or M == 0) {
+        cout << "0";
+        return 0;
+    }
+    vector<int> Sell;
+    vector<int> Buy;
+    int cur = 0;
+    long long sum = 0;
+
+    for (int i = 0; i < (N + M); i++) {
+        if (i < N) {
+            cin >> cur;
+            Sell.push_back(cur);
+        }
+        else {
+            cin >> cur;
+            Buy.push_back(cur);
+        }
+    }
+
+    sort(begin(Sell), end(Sell));
+    sort(begin(Buy), end(Buy));
+
+    int i = 0;
+    int j = 0;
+    while (i < N && j < M && Sell[i] < Buy[j]) {
+        sum += Buy[j] - Sell[i];
+        ++i;
+        ++j;
+    }
+
+    return sum;
+}
