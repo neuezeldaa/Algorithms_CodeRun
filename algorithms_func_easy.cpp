@@ -249,3 +249,26 @@ int AlotOfChairs(int N, int M)
 
     return sum;
 }
+
+
+//Задача 204: Есть N серверов и вероятности попадания запроса на сервер и
+//Возникновения ошибки на сервере. Найти вероятность того, что веряотность произошла на соответствующем сервере.
+int Error(int N)
+{
+    vector<double> P_server;
+    double total_error = 0.0;
+
+    for (int i = 0; i < N; ++i) {
+        int a, b;
+        cin >> a >> b;
+        double prob = (a / 100.0) * (b / 100.0);
+        P_server.push_back(prob);
+        total_error += prob;
+    }
+
+    for (double prob : P_server) {
+        printf("%.12f\n", prob / total_error);
+    }
+
+    return 0;
+}

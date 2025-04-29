@@ -23,6 +23,8 @@ int main()
 
     //cout << "Maximum of profit: " << AlotOfChairs(2, 3) << endl;
 
+    //cout << "Probability of error on each server: " << Error(2) << endl;
+
 
     return 0;
 }
