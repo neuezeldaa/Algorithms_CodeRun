@@ -2,6 +2,8 @@
 #include "algos_header.h"
 
 using namespace std;
+ 
+
 
 int main()
 {
@@ -24,6 +26,8 @@ int main()
     //cout << "Maximum of profit: " << AlotOfChairs(2, 3) << endl;
 
     //cout << "Probability of error on each server: " << Error(2) << endl;
+
+    //cout << "Intersection of two vectors: " << intersecc() << endl;
 
 
     return 0;

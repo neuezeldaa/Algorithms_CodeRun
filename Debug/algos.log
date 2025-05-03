@@ -1,2 +1,4 @@
-﻿  algos_main.cpp
+﻿  algorithms_func_easy.cpp
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(196,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(249,12): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
   algos.vcxproj -> C:\Users\Roman\source\repos\algos\Debug\algos.exe
