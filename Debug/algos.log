@@ -1,6 +1,17 @@
 ﻿  algorithms_func_easy.cpp
-C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(197,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(250,12): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(195,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(248,12): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(356,19): warning C4244: инициализация: преобразование "const _Ty" в "int", возможна потеря данных
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(356,19): warning C4244:         with
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(356,19): warning C4244:         [
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(356,19): warning C4244:             _Ty=__int64
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(356,19): warning C4244:         ]
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(430,23): warning C4244: инициализация: преобразование "_Ty" в "int", возможна потеря данных
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(430,23): warning C4244:         with
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(430,23): warning C4244:         [
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(430,23): warning C4244:             _Ty=__int64
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(430,23): warning C4244:         ]
   algos_main.cpp
+  base_functions.cpp
   Создание кода...
   algos.vcxproj -> C:\Users\Roman\source\repos\algos\Debug\algos.exe

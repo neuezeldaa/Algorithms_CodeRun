@@ -5,6 +5,13 @@
 #include <algorithm>
 #include <string>
 #include <iostream>
+#include <cmath>
+using namespace std;
+
+
+//Базовые функции:
+// 1. Binary_search
+int binary_search(vector<int> vec, int item);
 
 //Задача 1: Подается три элемента, вывести средний, "центральный" элемент
 int SredniyElement(int a, int b, int c);
@@ -30,11 +37,9 @@ int poliglott();
 //Задача 60: У Ани N кубиков, у Бори M кубиков, у каждого кубика свой цвет. Определить сходства и различие цветов кубиков.
 int kubiki(int N, int M);
 
-
 //Задача 58: На калькуляторе есть 3 цифры: x y z. Пользователь хочет ввести число N. Определить, 
 //Сколько цифр нужно добавить калькулятору для того, чтоб вывести N.
 int OpenCalculator(int x, int y, int z, int N);
-
 
 //Задача 324: Много стульев. Мужик покупает стулья и продает их. 
 //Нужно найти максимальную выгоду, учитывая, что в городе есть N продавцов, которые продают по 1 стулу по определенной цене
@@ -48,6 +53,12 @@ int Error(int N);
 //Задача 61: Дано два множества, найти пересечения их элементов.
 int intersecc();
 
-
 //Задача 99: Выяснить, есть ли i-элемент из второго множества в первом множестве с помощью бинарного поиска
 int check_vectors();
+
+//Задачка 100: Найти ближайший элемент в N векторе для j-элемента K вектора
+//Функция binary_search переехала сюда с ll из-за того, что в задаче рассматриваются числа не превосходящие 2*10^9.
+int binary_search_ll(const vector<long long>& vec, long long i);
+int lower_bound_custom(const vector<long long>& arr, long long x);
+long long closest(const vector<long long>& N_num, long long x);
+int closer_to_the_item();

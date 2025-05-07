@@ -1,8 +1,5 @@
-﻿#include <iostream>
-#include "algos_header.h"
+﻿#include "algos_header.h"
 
-using namespace std;
- 
 
 
 int main()
@@ -30,8 +27,9 @@ int main()
     // 11 cout << "Intersection of two vectors: " << intersecc() << endl;
     
     // 12 cout << "Realisation of binary search function: " << check_vectors() << endl;
-
-
+    
+    // 13 cout << "closest element in N-list for j: " << closer_to_the_item();
+   
     return 0;
 }
 

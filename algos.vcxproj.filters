@@ -21,6 +21,9 @@
     <ClCompile Include="algorithms_func_easy.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="base_functions.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algos_header.h">

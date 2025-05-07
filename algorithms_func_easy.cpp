@@ -1,6 +1,4 @@
-#include <iostream>
 #include "algos_header.h"
-using namespace std;
 
 
 //Задача 1: Подается три элемента, вывести средний, "центральный" элемент
@@ -313,28 +311,6 @@ int intersecc()
 
 
 //Задача 99: Выяснить, есть ли i-элемент из второго множества в первом множестве с помощью бинарного поиска
-int binary_search(vector<int> vec, int i)
-{
-    int low = 0;
-    int high = vec.size() - 1;
-
-    while (low <= high) {
-        int mid = (low + high) / 2;
-        int guess = vec[mid];
-        if (guess == i) {
-            return 1;
-        }
-        if (guess > i) {
-            high = mid - 1;
-        }
-        else {
-            low = mid + 1;
-        }
-
-    }
-    return 0;
-}
-
 int check_vectors()
 {
     vector<int> N_vec;
@@ -362,6 +338,93 @@ int check_vectors()
         else {
             cout << "NO" << endl;
         }
+    }
+    return 0;
+}
+
+
+
+
+//Задачка 100: Найти ближайший элемент в N векторе для j-элемента K вектора
+//Функция binary_search переехала сюда с ll из-за того, что в задаче рассматриваются числа не превосходящие 2*10^9.
+int binary_search_ll(const vector<long long>& vec, long long i)
+{
+    int low = 0;
+    int high = vec.size() - 1;
+    while (low <= high) {
+        int mid = (low + high) / 2;
+        int guess = vec[mid];
+        if (guess == i) {
+            return 1;
+        }
+        if (guess > i) {
+            high = mid - 1;
+        }
+        else {
+            low = mid + 1;
+        }
+    }
+    return 0;
+}
+int lower_bound_custom(const vector<long long>& arr, long long x) {
+    int low = 0;
+    int high = arr.size();
+    while (low < high) {
+        int mid = (low + high) / 2;
+        if (arr[mid] < x) {
+            low = mid + 1;
+        }
+        else {
+            high = mid;
+        }
+    }
+    return low;
+}
+long long closest(const vector<long long>& N_num, long long x) {
+    int n = N_num.size();
+
+    if (binary_search_ll(N_num, x)) {
+        return x;
+    }
+
+    int pos = lower_bound_custom(N_num, x);
+
+    if (pos == 0) {
+        return N_num[0];
+    }
+
+    if (pos == n) {
+        return N_num[n - 1];
+    }
+
+    long long left_val = N_num[pos - 1];
+    long long right_val = N_num[pos];
+
+    if (abs(x - left_val) <= abs(x - right_val)) {
+        return left_val;
+    }
+    else {
+        return right_val;
+    }
+}
+int closer_to_the_item()
+{
+    int N, K;
+    cin >> N >> K;
+    vector<long long> N_num;
+    vector<long long> K_num;
+    int num;
+    for (int i = 0; i < N; i++) {
+        cin >> num;
+        N_num.push_back(num);
+    }
+    for (int k = 0; k < K; k++) {
+        cin >> num;
+        K_num.push_back(num);
+    }
+
+    for (int n : K_num) {
+        cout << closest(N_num, n) << endl;
     }
     return 0;
 }
