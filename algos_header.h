@@ -62,3 +62,6 @@ int binary_search_ll(const vector<long long>& vec, long long i);
 int lower_bound_custom(const vector<long long>& arr, long long x);
 long long closest(const vector<long long>& N_num, long long x);
 int closer_to_the_item();
+
+//Задача 72: Проверить, является ли список возрастающим или нет
+bool is_increase();

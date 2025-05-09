@@ -428,3 +428,26 @@ int closer_to_the_item()
     }
     return 0;
 }
+
+
+//Задача 72: Проверить, является ли список возрастающим или нет
+bool is_increase()
+{
+    vector<int> numbers;
+    int num;
+    while (cin >> num) {
+        numbers.push_back(num);
+    }
+
+    bool flag = true;
+
+    for (size_t i = 1; i < numbers.size(); ++i) {
+        if (numbers[i] <= numbers[i - 1]) {
+            flag = false;
+            break;
+        }
+    }
+
+    bool is_inc = (flag ? "YES" : "NO");
+    return is_inc;
+}

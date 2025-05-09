@@ -28,8 +28,9 @@ int main()
     
     // 12 cout << "Realisation of binary search function: " << check_vectors() << endl;
     
-    // 13 cout << "closest element in N-list for j: " << closer_to_the_item();
+    // 13 cout << "closest element in N-list for j: " << closer_to_the_item() << endl;
    
+    // 14 cout << "is the list increased?: " << is_increase() << endl;
     return 0;
 }
 
