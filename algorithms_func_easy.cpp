@@ -451,3 +451,41 @@ bool is_increase()
     bool is_inc = (flag ? "YES" : "NO");
     return is_inc;
 }
+
+
+//Задача 108: Вывести средний элемент для каждой отсортированной сдвоенной пары в списке векторов одного размера
+int Mediana(int N, int L)
+{
+    vector<vector<int>> vectors;
+    for (int i = 0; i < N; i++) {
+        vector<int> temp;
+        int num;
+        for (int j = 0; j < L; j++) {
+            cin >> num;
+            temp.push_back(num);
+        }
+        vectors.push_back(temp);
+    }
+    cout << endl;
+    vector<int> init;
+    for (int i = 0; i < N - 1; i++) {
+        for (int j = i + 1; j < N; j++) {
+
+            for (int n : vectors[i]) {
+                init.push_back(n);
+            }
+
+
+            for (int n : vectors[j]) {
+                init.push_back(n);
+            }
+
+            sort(init.begin(), init.end());
+
+            cout << init[L - 1] << endl;
+            init.clear();
+        }
+    }
+
+    return 0;
+}
