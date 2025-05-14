@@ -31,6 +31,11 @@ int main()
     // 13 cout << "closest element in N-list for j: " << closer_to_the_item() << endl;
    
     // 14 cout << "is the list increased?: " << is_increase() << endl;
+
+    // 15 cout << "Middle element of summa of pair of vectors: " << Mediana(3, 6) << endl;
+
+
+
     return 0;
 }
 
