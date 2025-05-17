@@ -1,2 +1,9 @@
 ﻿  algos_main.cpp
+C:\Users\Roman\source\repos\algos\algos\algos_main.cpp(45,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algos_main.cpp(46,30): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algos_main.cpp(54,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algos_main.cpp(55,30): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algos_main.cpp(63,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algos_main.cpp(64,30): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algos_main.cpp(65,34): warning C4018: <: несоответствие типов со знаком и без знака
   algos.vcxproj -> C:\Users\Roman\source\repos\algos\Debug\algos.exe

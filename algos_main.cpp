@@ -34,8 +34,7 @@ int main()
 
     // 15 cout << "Middle element of summa of pair of vectors: " << Mediana(3, 6) << endl;
 
-
-
+    // 16 cout << "Transpose of the matrix multiplication of matrices A and B:" << MultiplyAndTransponiruy(1, 2, 3) << endl;
     return 0;
 }
 

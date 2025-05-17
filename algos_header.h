@@ -69,3 +69,5 @@ bool is_increase();
 
 //Задача 108: Вывести средний элемент для каждой отсортированной сдвоенной пары в списке векторов одного размера
 int Mediana(int N, int L);
+
+int MultiplyAndTransponiruy(int n, int m, int k);
