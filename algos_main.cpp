@@ -35,6 +35,9 @@ int main()
     // 15 cout << "Middle element of summa of pair of vectors: " << Mediana(3, 6) << endl;
 
     // 16 cout << "Transpose of the matrix multiplication of matrices A and B:" << MultiplyAndTransponiruy(1, 2, 3) << endl;
+
+    // 17 cout << "Summa of numbers in the rectangle:" << pref_summ(3,3,3) << endl;
+    
     return 0;
 }
 
