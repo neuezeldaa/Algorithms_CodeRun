@@ -2,7 +2,7 @@
 
 
 //Задача 1: Подается три элемента, вывести средний, "центральный" элемент
-int SredniyElement(int a, int b, int c) {
+int SredniyElement_1(int a, int b, int c) {
     
 	int arg[3] = { a,b,c };
     int temp;
@@ -17,9 +17,9 @@ int SredniyElement(int a, int b, int c) {
     }
 	return arg[1];
 }
-//Задача 5321: Подается К число уровней елки, на каждом уровне 2^(i-1) шариков, определить сколько шариков требуется для k уровней
 
-int NaryajElka(int k) {
+//Задача 5321: Подается К число уровней елки, на каждом уровне 2^(i-1) шариков, определить сколько шариков требуется для k уровней
+int NaryajElka_5321(int k) {
     int summa = 0;
     for (int i = 1; i <= k; i++) {
         summa += int(pow(2, i - 1));
@@ -31,7 +31,7 @@ int NaryajElka(int k) {
 //Задача 55: Свинки стреляют по птичкам из ружья. У птичек есть координаты
 //Если попадают в птичку сверху, то она падает на всех птичек под ней.
 //Требуется найти минимальное количество выстрелов для снова всех птичек количесвом N
-int AngryPigs(int N)
+int AngryPigs_55(int N)
 {
     int x, y;
     cin >> N;
@@ -46,7 +46,7 @@ int AngryPigs(int N)
 
 //Задача 83: На клавиатуре есть N клавиш с количеством возможных нажатий на каждую клавишу,
 // Задается последовательность из K нажатий. Определить, работает ли клавиша после этой последовательности?
-int Keybord()
+int Keybord_83()
 {
     int N, K;
     cin >> N;
@@ -82,7 +82,7 @@ int Keybord()
 }
 
 //Задача 62: Количество различных чисел в списке
-int Different_numbers()
+int Different_numbers_62()
 {
     set<int> massive;
     int num;
@@ -97,7 +97,7 @@ int Different_numbers()
 
 
 //Задача 54: Найти среди N участников, которые знают по M языков общие языки и языки, которые знает хотя бы 1 ученик. 
-int poliglott()
+int poliglott_54()
 {
     int N, M;
     int cou = 0;
@@ -135,7 +135,7 @@ int poliglott()
 
 
 //Задача 60: У Ани N кубиков, у Бори M кубиков, у каждого кубика свой цвет. Определить сходства и различие цветов кубиков.
-int kubiki(int N, int M)
+int kubiki_60(int N, int M)
 {
     vector<int> kubanya;
     vector<int> kuborya;
@@ -188,7 +188,7 @@ int kubiki(int N, int M)
 
 //Задача 58: На калькуляторе есть 3 цифры: x y z. Пользователь хочет ввести число N. Определить, 
 //Сколько цифр нужно добавить калькулятору для того, чтоб вывести N.
-int OpenCalculator(int x, int y, int z, int N)
+int OpenCalculator_58(int x, int y, int z, int N)
 {
     int c = 0;
     set<int> digits;
@@ -213,7 +213,7 @@ int OpenCalculator(int x, int y, int z, int N)
 //Задача 324: Много стульев. Мужик покупает стулья и продает их. 
 //Нужно найти максимальную выгоду, учитывая, что в городе есть N продавцов, которые продают по 1 стулу по определенной цене
 //И есть M покупателей, которые покупают по 1 стулу по определенной цене.
-int AlotOfChairs(int N, int M)
+int AlotOfChairs_324(int N, int M)
 {
     if (N == 0 or M == 0) {
         cout << "0";
@@ -252,7 +252,7 @@ int AlotOfChairs(int N, int M)
 
 //Задача 204: Есть N серверов и вероятности попадания запроса на сервер и
 //Возникновения ошибки на сервере. Найти вероятность того, что веряотность произошла на соответствующем сервере.
-int Error(int N)
+int Error_204(int N)
 {
     vector<double> P_server;
     double total_error = 0.0;
@@ -274,7 +274,7 @@ int Error(int N)
 
 
 //Задача 61: Дано два множества, найти пересечения их элементов.
-int intersecc()
+int intersecc_61()
 {
     vector<int> first;
     vector<int> second;
@@ -312,7 +312,7 @@ int intersecc()
 
 
 //Задача 99: Выяснить, есть ли i-элемент из второго множества в первом множестве с помощью бинарного поиска
-int check_vectors()
+int check_vectors_99()
 {
     vector<int> N_vec;
     vector<int> K_vec;
@@ -406,7 +406,7 @@ long long closest(const vector<long long>& N_num, long long x) {
         return right_val;
     }
 }
-int closer_to_the_item()
+int closer_to_the_item_100()
 {
     int N, K;
     cin >> N >> K;
@@ -430,7 +430,7 @@ int closer_to_the_item()
 
 
 //Задача 72: Проверить, является ли список возрастающим или нет
-bool is_increase()
+bool is_increase_72()
 {
     vector<int> numbers;
     int num;
@@ -453,7 +453,7 @@ bool is_increase()
 
 
 //Задача 108: Вывести средний элемент для каждой отсортированной сдвоенной пары в списке векторов одного размера
-int Mediana(int N, int L)
+int Mediana_108(int N, int L)
 {
     vector<vector<int>> vectors;
     for (int i = 0; i < N; i++) {
@@ -491,7 +491,7 @@ int Mediana(int N, int L)
 
 
 //Задача 5204: Дано две матрицы, требуется их перемножить и вывести новую транспонированную.
-int MultiplyAndTransponiruy(int n, int m, int k)
+int MultiplyAndTransponiruy_5204(int n, int m, int k)
 {
     vector<vector<int>> A;
     vector<vector<int>> B;
@@ -536,7 +536,7 @@ int MultiplyAndTransponiruy(int n, int m, int k)
 
 
 //Задача 138: Сумма чисел в прямоугольнике в матрице при помощи prefix`ов суммы
-int pref_summ(int N, int M, int K)
+int pref_summ_138(int N, int M, int K)
 {
     vector<vector<int>> matrix(N + 1, vector<int>(M + 1, 0));
     for (int i = 1; i <= N; ++i) {
@@ -564,7 +564,7 @@ int pref_summ(int N, int M, int K)
 
 
 //Задача 106: Провода. Дан провод из N отрезков с своими длинами. Требуется получить такую наибольшую длину, чтоб получить из них K отрезков
-int otrezki(int N, int K)
+int otrezki_106(int N, int K)
 {
     vector<int> otrezki(N);
     int ma = 0;
