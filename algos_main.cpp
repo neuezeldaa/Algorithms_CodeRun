@@ -40,6 +40,8 @@ int main()
 
     // 18 cout << "Max Lenght of the wire for K segment is: " << otrezki(4, 11) << endl;
 
+    // 19 cout << "Size of of the room: " << plitka_445(8, 1) << endl;
+
     return 0;
 }
 
