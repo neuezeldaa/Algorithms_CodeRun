@@ -18,6 +18,7 @@ int SredniyElement(int a, int b, int c) {
 	return arg[1];
 }
 //Задача 5321: Подается К число уровней елки, на каждом уровне 2^(i-1) шариков, определить сколько шариков требуется для k уровней
+
 int NaryajElka(int k) {
     int summa = 0;
     for (int i = 1; i <= k; i++) {
@@ -343,8 +344,6 @@ int check_vectors()
 }
 
 
-
-
 //Задачка 100: Найти ближайший элемент в N векторе для j-элемента K вектора
 //Функция binary_search переехала сюда с ll из-за того, что в задаче рассматриваются числа не превосходящие 2*10^9.
 int binary_search_ll(const vector<long long>& vec, long long i)
@@ -561,4 +560,40 @@ int pref_summ(int N, int M, int K)
         cout << sum << endl;
     }
     return 0;
+}
+
+
+//Задача 106: Провода. Дан провод из N отрезков с своими длинами. Требуется получить такую наибольшую длину, чтоб получить из них K отрезков
+int otrezki(int N, int K)
+{
+    vector<int> otrezki(N);
+    int ma = 0;
+    for (int i = 0; i < N; ++i) {
+        cin >> otrezki[i];
+        if (ma < otrezki[i]) {
+            ma = otrezki[i];
+        }
+    }
+
+    int left = 1;
+    int right = ma;
+    int result = 0;
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        long long total = 0;
+        for (int l : otrezki) {
+            total += l / mid;
+            if (total >= K) {
+                break;
+            }
+        }
+        if (total >= K) {
+            result = mid;
+            left = mid + 1;
+        }
+        else {
+            right = mid - 1;
+        }
+    }
+    return result;
 }

@@ -1,2 +1,24 @@
-﻿  algos_main.cpp
+﻿  algorithms_func_easy.cpp
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(195,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(248,12): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(356,19): warning C4244: инициализация: преобразование "const _Ty" в "int", возможна потеря данных
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(356,19): warning C4244:         with
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(356,19): warning C4244:         [
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(356,19): warning C4244:             _Ty=__int64
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(356,19): warning C4244:         ]
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(426,23): warning C4244: инициализация: преобразование "_Ty" в "int", возможна потеря данных
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(426,23): warning C4244:         with
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(426,23): warning C4244:         [
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(426,23): warning C4244:             _Ty=__int64
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(426,23): warning C4244:         ]
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(503,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(504,30): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(512,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(513,30): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(521,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(522,30): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(523,34): warning C4018: <: несоответствие типов со знаком и без знака
+  algos_main.cpp
+  base_functions.cpp
+  Создание кода...
   algos.vcxproj -> C:\Users\Roman\source\repos\algos\Debug\algos.exe

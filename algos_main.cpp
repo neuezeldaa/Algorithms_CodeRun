@@ -37,7 +37,9 @@ int main()
     // 16 cout << "Transpose of the matrix multiplication of matrices A and B:" << MultiplyAndTransponiruy(1, 2, 3) << endl;
 
     // 17 cout << "Summa of numbers in the rectangle:" << pref_summ(3,3,3) << endl;
-    
+
+    // 18 cout << "Max Lenght of the wire for K segment is: " << otrezki(4, 11) << endl;
+
     return 0;
 }
 
