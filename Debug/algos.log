@@ -19,6 +19,9 @@ C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(520,26): warnin
 C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(521,30): warning C4018: <: несоответствие типов со знаком и без знака
 C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(522,34): warning C4018: <: несоответствие типов со знаком и без знака
 C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(606,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(607,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(609,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(608,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Roman\source\repos\algos\algos\algorithms_func_easy.cpp(611,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  algos_main.cpp
+  base_functions.cpp
+  Создание кода...
   algos.vcxproj -> C:\Users\Roman\source\repos\algos\Debug\algos.exe

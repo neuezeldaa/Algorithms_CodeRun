@@ -42,6 +42,8 @@ int main()
 
     // 19 cout << "Size of of the room: " << plitka_445(8, 1) << endl;
 
+    // 20 cout << "is the size of brick compare to the hole? " << Uznik_74(1, 1, 1, 1, 1) << endl;
+
     return 0;
 }
 

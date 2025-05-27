@@ -615,3 +615,20 @@ int plitka_445(int B, int W)
 
     return number_1*number_2;
 }
+
+string Uznik_74(int A, int B, int C, int D, int E)
+{
+    vector<int> brick_size{ A,B,C };
+    vector<int> hole_size{ D,E };
+    sort(brick_size.begin(), brick_size.end());
+    sort(hole_size.begin(), hole_size.end());
+
+    string result = "YES";
+    if (brick_size[0] <= hole_size[0] && brick_size[1] <= hole_size[1]) {
+        return result;
+    }
+    else {
+        result = "NO";
+        return result;
+    }
+}
