@@ -616,6 +616,8 @@ int plitka_445(int B, int W)
     return number_1*number_2;
 }
 
+
+//Задача 74: Узник Замка Иф. В стене есть отверстие размером B*E, нужно выяснить, пройдут ли через отверстие кирпичи размерами A*B*C
 string Uznik_74(int A, int B, int C, int D, int E)
 {
     vector<int> brick_size{ A,B,C };
@@ -631,4 +633,48 @@ string Uznik_74(int A, int B, int C, int D, int E)
         result = "NO";
         return result;
     }
+}
+
+
+//Задача 140: Стэк с защитой от ошибок. Описать взаимодействия со стеком 
+int Stack_140()
+{
+    vector<int> stack;
+    string command;
+    int num;
+    while (1) {
+        cin >> command;
+        if (command == "push") {
+            cin >> num;
+            stack.push_back(num);
+            cout << "ok" << endl;
+        }
+        else if (command == "pop") {
+            if (stack.size() == 0) {
+                cout << "error" << endl;
+                continue;
+            }
+            cout << *(--stack.end()) << endl;
+            stack.pop_back();
+        }
+        else if (command == "back") {
+            if (stack.size() == 0) {
+                cout << "error" << endl;
+                continue;
+            }
+            cout << *(--stack.end()) << endl;
+        }
+        else if (command == "size") {
+            cout << stack.size() << endl;
+        }
+        else if (command == "clear") {
+            stack.clear();
+            cout << "ok" << endl;
+        }
+        else {
+            cout << "bye" << endl;
+            break;
+        }
+    }
+    return 0;
 }
