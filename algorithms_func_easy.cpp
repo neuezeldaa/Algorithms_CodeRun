@@ -678,3 +678,30 @@ int Stack_140()
     }
     return 0;
 }
+
+
+//Задача 51: Дан входной файл с последовательностью слов, разделенных пробелами (одним или несколькими) или энтером. Нужно для каждого слова вывести
+//Число: сколько раз встречалось это слово ранее
+int Counter_Of_Appearance_51()
+{
+    map<string, int> dict;
+    std::ifstream in("C:/Users/Roman/Desktop/input.txt");
+
+    if (in.is_open())
+    {
+        string str;
+        while (in >> str)
+        {
+            if (dict.count(str) == 0) {
+                dict.try_emplace(str, 0);
+                cout << "0" << " ";
+            }
+            else {
+                cout << dict[str] + 1 << " ";
+                dict[str] += 1;
+            }
+        }
+    }
+    in.close();
+    return 0;
+}

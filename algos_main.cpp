@@ -1,4 +1,5 @@
 ﻿#include "algos_header.h"
+#include "algos_main.h"
 
 
 
@@ -45,6 +46,8 @@ int main()
     // 20 cout << "is the size of brick compare to the hole? " << Uznik_74(1, 1, 1, 1, 1) << endl;
 
     // 21 cout << "Enter commands to interaction with the stack: " << Stack_140() << endl;
+
+    // 22 cout << "How many times does the current word appearse? " << Counter_Of_Appearance_51() << endl;
 
     return 0;
 }

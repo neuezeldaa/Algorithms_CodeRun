@@ -4,8 +4,10 @@
 #include <vector>
 #include <algorithm>
 #include <string>
-#include <iostream>
 #include <cmath>
+#include <iostream>
+#include <fstream>
+#include <map>
 using namespace std;
 
 
@@ -87,3 +89,7 @@ string Uznik_74(int A, int B, int C, int D, int E);
 
 //Задача 140: Стэк с защитой от ошибок. Описать взаимодействия со стеком 
 int Stack_140();
+
+//Задача 51: Дан входной файл с последовательностью слов, разделенных пробелами (одним или несколькими) или энтером. Нужно для каждого слова вывести
+//Число: сколько раз встречалось это слово ранее
+int Counter_Of_Appearance_51();
