@@ -49,6 +49,8 @@ int main()
 
     // 22 cout << "How many times does the current word appearse? " << Counter_Of_Appearance_51() << endl;
 
+    // 23 cout << "What a synonym for the word..? " << Synonyms(3) << endl;
+
     return 0;
 }
 
