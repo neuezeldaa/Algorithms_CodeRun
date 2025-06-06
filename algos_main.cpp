@@ -52,6 +52,8 @@ int main()
 
     // 24 cout << "Which number in the array closest to the K? " << closest(5) << endl;
 
+    // 25 cout << "Day of the week for every date: " << DayOfTheWeek_306() << endl;
+
 
     return 0;
 }
