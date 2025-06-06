@@ -708,7 +708,7 @@ int Counter_Of_Appearance_51()
 
 
 //Задача 52: Дан словарь из различных синонимов: N строк из пар синонимов. Нужно для входного слова найти ему синоним.
-std::string Synonyms(int N)
+std::string Synonyms_52(int N)
 {
     map<string, string> dict;
     for (int i = 0; i < N; i++) {
@@ -725,7 +725,7 @@ std::string Synonyms(int N)
 
 
 //Задача 70: Дан массив чисел длины N и число K. Нужно в массиве найти такое число, которое будет максимально приближено к К
-int closest(int N)
+int Closest_70(int N)
 {
     int K;
     vector<int> mass;
