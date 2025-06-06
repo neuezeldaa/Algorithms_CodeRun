@@ -2,7 +2,6 @@
 #include "algos_main.h"
 
 
-
 int main()
 {
     // 1 cout << "The middle element in the list: " << SredniyElement(1, 6, 3) << endl;
@@ -50,6 +49,9 @@ int main()
     // 22 cout << "How many times does the current word appearse? " << Counter_Of_Appearance_51() << endl;
 
     // 23 cout << "What a synonym for the word..? " << Synonyms(3) << endl;
+
+    // 24 cout << "Which number in the array closest to the K? " << closest(5) << endl;
+
 
     return 0;
 }

@@ -722,3 +722,36 @@ std::string Synonyms(int N)
     cin >> word;
     return dict[word];
 }
+
+
+//Задача 70: Дан массив чисел длины N и число K. Нужно в массиве найти такое число, которое будет максимально приближено к К
+int closest(int N)
+{
+    int K;
+    vector<int> mass;
+    int num;
+    for (int i = 0; i < N; i++) {
+        cin >> num;
+        mass.push_back(num);
+    }
+    cin >> K;
+    if (binary_search(mass, K) != 0) {
+        cout << K;
+        return 0;
+    }
+    mass.push_back(K);
+    sort(mass.begin(), mass.end());
+    int pos = binary_search(mass, K);
+    if (pos == 0) {
+        return mass[pos + 1];
+    }
+    else if (pos == mass.size() - 1) {
+        return mass[pos - 1];
+    }
+    else if (mass[pos] - mass[pos - 1] >= mass[pos + 1] - mass[pos]) {
+        return mass[pos + 1];
+    }
+    else {
+        return mass[pos - 1];
+    }
+}

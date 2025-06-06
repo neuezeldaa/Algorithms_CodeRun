@@ -9,7 +9,7 @@ int binary_search(vector<int> vec, int i)
         int mid = (low + high) / 2;
         int guess = vec[mid];
         if (guess == i) {
-            return 1;
+            return mid;
         }
         if (guess > i) {
             high = mid - 1;
