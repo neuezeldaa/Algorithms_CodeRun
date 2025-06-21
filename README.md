@@ -22,3 +22,4 @@
 | 54. Полиглоты                             | 🟢      | Алгоритмы   | line handling, set, standart library| <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/54.cpp">Перейти к решению</a> |
 | 55. Злые свинки                           | 🟢      | Алгоритмы   | set, standart library, sort| <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/55.cpp">Перейти к решению</a> |
 | 58. OpenCalculator                        | 🟢      | Алгоритмы   | set, standart library| <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/58.cpp">Перейти к решению</a> |
+| 60. Кубики                                | 🟢      | Алгоритмы   | set, standart library, two pointers| <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/60.cpp">Перейти к решению</a> |
