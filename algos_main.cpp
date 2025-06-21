@@ -2,8 +2,7 @@
 #include "algos_main.h"
 
 
-int main()
-{
+int main(){
     // 1 cout << "The middle element in the list: " << SredniyElement(1, 6, 3) << endl;
     
     // 2 cout << "Count of cristmas toys on the tree: " << NaryajElka(3) << endl;
@@ -54,6 +53,7 @@ int main()
 
     // 25 cout << "Day of the week for every date: " << DayOfTheWeek_306() << endl;
 
+    // 26 cout << "all the nodes from where we can reach the first: " << 39 << endl;
 
     return 0;
 }
