@@ -1,5 +1,14 @@
-﻿#include "algos_header.h"
-#include "algos_main.h"
+﻿#include <math.h>
+#include <set>
+#include <vector>
+#include <algorithm>
+#include <string>
+#include <cmath>
+#include <iostream>
+#include <fstream>
+#include <map>
+
+using namespace std;
 
 
 int main(){
@@ -54,6 +63,8 @@ int main(){
     // 25 cout << "Day of the week for every date: " << DayOfTheWeek_306() << endl;
 
     // 26 cout << "all the nodes from where we can reach the first: " << 39 << endl;
+
+    // 27 cout << "count and subsequence of nodes: " << 7 << endl;
 
     return 0;
 }
