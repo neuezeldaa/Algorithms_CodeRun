@@ -32,3 +32,8 @@
 | 74. Узник замка Иф                        | 🟢      | Алгоритмы   | implementation | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/74.cpp">Перейти к решению</a> |
 | 83. Клавиатура                            | 🟢      | Алгоритмы   | counting, sort | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/83.cpp">Перейти к решению</a> |
 | 99. Двоичный поиск                        | 🟢      | Алгоритмы   | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/99.cpp">Перейти к решению</a> |
+| 100. Приближенный двоичный поиск          | 🟢      | Алгоритмы   | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/100.cpp">Перейти к решению</a> |
+
+
+
+
