@@ -34,7 +34,8 @@
 | 99. Двоичный поиск                        | 🟢      | Алгоритмы   | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/99.cpp">Перейти к решению</a> |
 | 100. Приближенный двоичный поиск          | 🟢      | Алгоритмы   | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/100.cpp">Перейти к решению</a> |
 | 106. Провода                              | 🟢      | Алгоритмы   | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/106.cpp">Перейти к решению</a> |
-
+| 108. Медиана объединения                  | 🟢      | Алгоритмы   | sort | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/108.cpp">Перейти к решению</a> |
+| 138. Сумма в прямоугольнике               | 🟢      | Алгоритмы   | prefix sum | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/138.cpp">Перейти к решению</a> |
 
 
 
