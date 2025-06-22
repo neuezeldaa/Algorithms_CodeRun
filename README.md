@@ -36,6 +36,6 @@
 | 106. Провода                              | 🟢      | Алгоритмы   | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/106.cpp">Перейти к решению</a> |
 | 108. Медиана объединения                  | 🟢      | Алгоритмы   | sort | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/108.cpp">Перейти к решению</a> |
 | 138. Сумма в прямоугольнике               | 🟢      | Алгоритмы   | prefix sum | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/138.cpp">Перейти к решению</a> |
-
+| 140. Стек с защитой от ошибок             | 🟢      | Алгоритмы   | stack | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/140.cpp">Перейти к решению</a> |
 
 
