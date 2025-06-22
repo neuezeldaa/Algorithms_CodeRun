@@ -38,6 +38,7 @@
 | 138. Сумма в прямоугольнике               | 🟢      | Алгоритмы   | prefix sum | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/138.cpp">Перейти к решению</a> |
 | 140. Стек с защитой от ошибок             | 🟢      | Алгоритмы   | stack | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/140.cpp">Перейти к решению</a> |
 | 204. Ошибка                               | 🟢      | Бекенд      | probability theory | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/204.cpp">Перейти к решению</a> |
+| 306. День недели                          | 🟢      | Бекенд      | implementation | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/306.cpp">Перейти к решению</a> |
 
 
 
