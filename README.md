@@ -28,3 +28,4 @@
 | 70. Ближайшее число                       | 🟢      | Алгоритмы   | linear search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/70.cpp">Перейти к решению</a> |
 | 72. Возрастает ли список?                 | 🟢      | Алгоритмы   | linear search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/72.cpp">Перейти к решению</a> |
 | 74. Узник замка Иф                        | 🟢      | Алгоритмы   | implementation | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/74.cpp">Перейти к решению</a> |
+| 83. Клавиатура                            | 🟢      | Алгоритмы   | counting, sort | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/83.cpp">Перейти к решению</a> |
