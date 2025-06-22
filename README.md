@@ -41,6 +41,7 @@
 | 306. День недели                          | 🟢      | Бекенд      | implementation | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/306.cpp">Перейти к решению</a> |
 | 324. Много стульев                        | 🟢      | Бекенд      | greedy, sort | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/324.cpp">Перейти к решению</a> |
 | 445. Плитка                               | 🟢      | Бекенд      |  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/445.cpp">Перейти к решению</a> |
+| 562. 1984                                 | 🟢      | Машинное обучение |  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/562.cpp">Перейти к решению</a> |
 | 5204. Умножай и транспонируй!             | 🟢      |             |  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/5204.cpp">Перейти к решению</a> |
 | 5321. Наряжаем ёлку                       | 🟢      | Алгоритмы   |  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/5321.cpp">Перейти к решению</a> |
 
