@@ -16,7 +16,7 @@ P.S. Данный проект создавался до появления ра
 >🟠 Средний <br>
 >🔴 Сложный <br>
 
-Текущее количество решенных задач на CodeRun: **33**.
+Текущее количество решенных задач на CodeRun: **35**.
 
 ### Каталог задач
 
@@ -43,6 +43,7 @@ P.S. Данный проект создавался до появления ра
 | 99. Двоичный поиск                        | 🟢      | Алгоритмы   | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/99.cpp">Перейти к решению</a> |
 | 100. Приближенный двоичный поиск          | 🟢      | Алгоритмы   | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/100.cpp">Перейти к решению</a> |
 | 102. Космическое поселение                | 🟠      | Алгоритмы   | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/102.cpp">Перейти к решению</a> |
+| 104. Очень лёгкая задача                  | 🟠      | Алгоритмы   | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/104.cpp">Перейти к решению</a> |
 | 106. Провода                              | 🟢      | Алгоритмы   | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/106.cpp">Перейти к решению</a> |
 | 108. Медиана объединения                  | 🟢      | Алгоритмы   | sort | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/108.cpp">Перейти к решению</a> |
 | 128. Родословная: число потомков          | 🟠      | Алгоритмы   | dict, dynamic programming, tree | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/128.cpp">Перейти к решению</a> |
