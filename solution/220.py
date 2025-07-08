@@ -1,41 +1,24 @@
-import bisect
+def search(a, t):
+    l = 0
+    r = len(a)
+    while r - l > 1:
+        m = (l + r) // 2
+        if a[m] > t:
+            r = m
+        else:
+            l = m
+    if r < len(a) and a[r] - t < t - a[l]:
+        return a[r]
+    return a[l]
+
 
 def main():
-    import sys
-    input = sys.stdin.read
-    data = list(map(int, input().split()))
-    
-    idx = 0
-    N = data[idx]
-    idx += 1
-    answers = data[idx:idx+N]
-    idx += N
-    
-    M = data[idx]
-    idx += 1
-    b_j_list = data[idx:idx+M]
-    
-    sorted_answers = sorted(answers)
-    results = []
-    
-    for b_j in b_j_list:
-        pos = bisect.bisect_left(sorted_answers, b_j)
-        
-        candidates = []
-        if pos > 0:
-            candidates.append(sorted_answers[pos-1])
-        if pos < len(sorted_answers):
-            candidates.append(sorted_answers[pos])
+    n = int(input())
+    a = sorted(map(int, input().split()))
+    m = int(input())
+    for _ in range(m):
+        t = int(input())
+        print(search(a, t))
 
-        if len(candidates) == 1:
-            results.append(str(candidates[0]))
-        else:
-            if abs(candidates[0] - b_j) <= abs(candidates[1] - b_j):
-                results.append(str(candidates[0]))
-            else:
-                results.append(str(candidates[1]))
-    
-    print('\n'.join(results))
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
