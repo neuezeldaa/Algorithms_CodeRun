@@ -42,6 +42,7 @@ P.S. Данный проект создавался до появления ра
 | 83. Клавиатура                            | 🟢      | counting, sort | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/83.cpp">Перейти к решению</a> |
 | 99. Двоичный поиск                        | 🟢      | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/99.cpp">Перейти к решению</a> |
 | 100. Приближенный двоичный поиск          | 🟢      | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/100.cpp">Перейти к решению</a> |
+| 101. Дипломы                              | 🟢      | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/101.cpp">Перейти к решению</a> |
 | 102. Космическое поселение                | 🟠      | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/102.cpp">Перейти к решению</a> |
 | 104. Очень лёгкая задача                  | 🟠      | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/104.cpp">Перейти к решению</a> |
 | 106. Провода                              | 🟢      | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/106.cpp">Перейти к решению</a> |
