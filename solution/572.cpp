@@ -20,14 +20,13 @@ int main() {
     sort(times.begin(), times.end());
 
     long long low = 0;
-    long long high = times[n+1] - times[0];
+    long long high = 2e9;
     long long answer = 0;
 
     while (low <= high) {
         long long mid = (low + high) / 2;
         bool valid = true;
 
-        // Проверяем с помощью двух указателей
         int j = 0;
         for (int i = 0; i < n; ++i) {
             while (j < n && times[j] < times[i] + mid) ++j;
