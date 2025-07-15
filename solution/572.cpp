@@ -20,7 +20,7 @@ int main() {
     sort(times.begin(), times.end());
 
     long long low = 0;
-    long long high = 2e9;
+    long long high = times[n-1] - times[0];
     long long answer = 0;
 
     while (low <= high) {
