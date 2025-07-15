@@ -63,6 +63,6 @@ P.S. Данный проект создавался до появления ра
 | 5204. Умножай и транспонируй!             | 🟢      |  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/5204.cpp">Перейти к решению</a> |
 | 5321. Наряжаем ёлку                       | 🟢      |  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/5321.cpp">Перейти к решению</a> |
 | 7165. Добро пожаловать в мир CodeRun!     | 🟠      | CodeRun Boost Challenge | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/7165.cpp">Перейти к решению</a> |
-| 7327. В двоичном лесу                     | 🔴      | CodeRun Boost Challenge | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/7327.cpp">Перейти к решению</a> |
+| 7327. В двоичном лесу                     | 🟠      | CodeRun Boost Challenge | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/7327.cpp">Перейти к решению</a> |
 
 
