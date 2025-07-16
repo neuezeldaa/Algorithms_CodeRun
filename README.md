@@ -16,7 +16,7 @@ P.S. Данный проект создавался до появления ра
 >🟠 Средний <br>
 >🔴 Сложный <br>
 
-Текущее количество решенных задач на CodeRun: **42**.
+Текущее количество решенных задач на CodeRun: **43**.
 
 ### Каталог задач
 
@@ -59,6 +59,7 @@ P.S. Данный проект создавался до появления ра
 | 445. Плитка                               | 🟢      |  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/445.cpp">Перейти к решению</a> |
 | 546. Покрытие K отрезками                 | 🟠      | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/546.cpp">Перейти к решению</a> |
 | 562. 1984                                 | 🟢      |  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/562.cpp">Перейти к решению</a> |
+| 570. Лента рекомендаций                   | 🟢      | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/570.cpp">Перейти к решению</a> |
 | 572. Поход в горы                         | 🟠      | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/572.cpp">Перейти к решению</a> |
 | 5204. Умножай и транспонируй!             | 🟢      |  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/5204.cpp">Перейти к решению</a> |
 | 5321. Наряжаем ёлку                       | 🟢      |  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/5321.cpp">Перейти к решению</a> |
