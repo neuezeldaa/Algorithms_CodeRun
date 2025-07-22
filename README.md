@@ -16,7 +16,7 @@ P.S. Данный проект создавался до появления ра
 >🟠 Средний <br>
 >🔴 Сложный <br>
 
-Текущее количество решенных задач на CodeRun: **47**.
+Текущее количество решенных задач на CodeRun: **48**.
 
 ### Каталог задач
 
@@ -59,6 +59,7 @@ P.S. Данный проект создавался до появления ра
 | 221. Линейно разделимая выборка           | 🟢      | machine learning |<a href="https://github.com/neuezeldaa/Algorithms_CodeRun/tree/main/solution/221">Перейти к решению</a> |
 | 306. День недели                          | 🟢      | implementation | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/306.cpp">Перейти к решению</a> |
 | 324. Много стульев                        | 🟢      | greedy, sort | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/324.cpp">Перейти к решению</a> |
+| 330. Шифр                                 | 🟢      | crypto | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/330">Перейти к решению</a> |
 | 445. Плитка                               | 🟢      |  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/445.cpp">Перейти к решению</a> |
 | 546. Покрытие K отрезками                 | 🟠      | binary search | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/546.cpp">Перейти к решению</a> |
 | 562. 1984                                 | 🟢      |  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/solution/562.cpp">Перейти к решению</a> |
