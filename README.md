@@ -19,6 +19,7 @@ P.S. Данный проект создавался до появления ра
 Текущее количество решенных задач на CodeRun: **50**.
 
 <a href="https://github.com/neuezeldaa/Algorithms_CodeRun#%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87-%D1%81-coderun">Перейти к каталогу задач с CodeRun</a>
+
 <a href="https://github.com/neuezeldaa/Algorithms_CodeRun#%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87-%D1%81-leetcode">Перейти к каталогу задач с LeetCode</a>
 
 ---
