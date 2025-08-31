@@ -77,5 +77,5 @@ P.S. Данный проект создавался до появления ра
 ### Каталог задач с LeetCode
 | Название                                  | Уровень  | Теги                   | Ссылка на задание             | Ссылка на решение |
 |-------------------------------------------|----------|------------------------|------------------------|--------------------------|
-| 228. Summary Ranges                       | 🟢      | arrays                  | <a https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/228/discripton.md">Перейти к описанию</a> | <a https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/228/Summary_Ranges.cpp>Перейти к Решению</a> |
+| 228. Summary Ranges                       | 🟢      | arrays                  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/228/discripton.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/228/Summary_Ranges.cpp">Перейти к Решению</a> |
 
