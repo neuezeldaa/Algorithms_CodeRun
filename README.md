@@ -83,4 +83,4 @@ P.S. Данный проект создавался до появления ра
 | Название                                  | Уровень  | Теги                   | Ссылка на задание             | Ссылка на решение |
 |-------------------------------------------|----------|------------------------|------------------------|--------------------------|
 | 228. Summary Ranges                       | 🟢      | arrays                  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/228/discripton.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/228/Summary_Ranges.cpp">Перейти к Решению</a> |
-
+| 125. Valid Palindrome                     | 🟢      | two pointers, string    | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/125/discripton.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/128/Valid_Palindrome.cpp">Перейти к Решению</a> |
