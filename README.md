@@ -16,7 +16,7 @@ P.S. Данный проект создавался до появления ра
 >🟠 Средний <br>
 >🔴 Сложный <br>
 
-Текущее количество решенных задач на CodeRun: **55**.
+Текущее количество решенных задач на CodeRun: **56**.
 
 <a href="https://github.com/neuezeldaa/Algorithms_CodeRun#%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87-%D1%81-coderun">Перейти к каталогу задач с CodeRun</a>
 
@@ -88,5 +88,5 @@ P.S. Данный проект создавался до появления ра
 | 283. Move Zeroes                          | 🟢      | two pointers, arrays    | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/283/description.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/283/Move_Zeroes.cpp">Перейти к Решению</a> |
 | 771. Jewels and Stones                    | 🟢      | hash table, string    | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/771/description.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/771/Jewels&&Stones.cpp">Перейти к Решению</a> |
 | 938. Range Sum of BST                     | 🟢      | Tree, DFS, BST, Binary Tree    | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/938/description.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/938/Range_Sum_of_BST.cpp">Перейти к Решению</a> |
-
+| 3516. Find Closest Person                 | 🟢      | Math, Weekly Contest 445 | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/3516/description.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/3516/Find_Closest_Person.cpp">Перейти к Решению</a> |
 
