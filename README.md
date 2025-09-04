@@ -16,7 +16,7 @@ P.S. Данный проект создавался до появления ра
 >🟠 Средний <br>
 >🔴 Сложный <br>
 
-Текущее количество решенных задач на CodeRun: **54**.
+Текущее количество решенных задач на CodeRun: **55**.
 
 <a href="https://github.com/neuezeldaa/Algorithms_CodeRun#%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87-%D1%81-coderun">Перейти к каталогу задач с CodeRun</a>
 
@@ -83,6 +83,7 @@ P.S. Данный проект создавался до появления ра
 | Название                                  | Уровень  | Теги                   | Ссылка на задание             | Ссылка на решение |
 |-------------------------------------------|----------|------------------------|------------------------|--------------------------|
 | 125. Valid Palindrome                     | 🟢      | two pointers, string    | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/128/description.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/128/Valid_Palindrome.cpp">Перейти к Решению</a> |
+| 206. Reverse Linked List                  | 🟢      | linked list, recursion  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/206/description.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/206/Reverse_Linked_List.cpp">Перейти к Решению</a> |
 | 228. Summary Ranges                       | 🟢      | arrays                  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/228/description.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/228/Summary_Ranges.cpp">Перейти к Решению</a> |
 | 283. Move Zeroes                          | 🟢      | two pointers, arrays    | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/283/description.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/283/Move_Zeroes.cpp">Перейти к Решению</a> |
 | 771. Jewels and Stones                    | 🟢      | hash table, string    | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/771/description.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/771/Jewels&&Stones.cpp">Перейти к Решению</a> |
