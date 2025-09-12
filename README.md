@@ -16,7 +16,7 @@ P.S. Данный проект создавался до появления ра
 >🟠 Средний <br>
 >🔴 Сложный <br>
 
-Текущее количество решенных задач на CodeRun: **56**.
+Текущее количество решенных задач на CodeRun: **57**.
 
 <a href="https://github.com/neuezeldaa/Algorithms_CodeRun#%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87-%D1%81-coderun">Перейти к каталогу задач с CodeRun</a>
 
@@ -82,6 +82,7 @@ P.S. Данный проект создавался до появления ра
 ### Каталог задач с LeetCode
 | Название                                  | Уровень  | Теги                   | Ссылка на задание             | Ссылка на решение |
 |-------------------------------------------|----------|------------------------|------------------------|--------------------------|
+| 2. Add Two Numbers                        | 🟠      |Linked List, Math, Recursion    | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/2/description.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/2/Add_Two_Numbers.cpp">Перейти к Решению</a> |
 | 125. Valid Palindrome                     | 🟢      | two pointers, string    | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/128/description.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/128/Valid_Palindrome.cpp">Перейти к Решению</a> |
 | 206. Reverse Linked List                  | 🟢      | linked list, recursion  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/206/description.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/206/Reverse_Linked_List.cpp">Перейти к Решению</a> |
 | 228. Summary Ranges                       | 🟢      | arrays                  | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/228/description.md">Перейти к описанию</a> | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/LeetCode/228/Summary_Ranges.cpp">Перейти к Решению</a> |
