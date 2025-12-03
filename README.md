@@ -101,7 +101,7 @@ P.S. Данный проект создавался до появления ра
 |-------------------------------------------|----------|------------------------|------------------------|
 | 1. Тепловые панели                        | 🟢      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/1.py">Перейти к решению</a> |
 | 2. Калибровка магического альтиметра      | 🟢      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/2.py">Перейти к решению</a> |
-
+| 3. Снаряжение                             | 🟢      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/3.py">Перейти к решению</a> |
 
 
 
