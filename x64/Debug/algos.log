@@ -1,5 +1,0 @@
-﻿  SredniyElement.cpp
-  algos.cpp
-C:\Users\Roman\source\repos\algos\algos\algos.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-  Создание кода...
-C:\Users\Roman\source\repos\algos\algos\SredniyElement.cpp(27,1): error C4700: использована неинициализированная локальная переменная "summa"
