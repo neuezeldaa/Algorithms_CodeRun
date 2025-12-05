@@ -16,7 +16,7 @@ P.S. Данный проект создавался до появления ра
 >🟠 Средний <br>
 >🔴 Сложный <br>
 
-Текущее количество решенных задач на CodeRun: **60**.
+Текущее количество решенных задач на CodeRun: **62**.
 
 <a href="https://github.com/neuezeldaa/Algorithms_CodeRun#%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87-%D1%81-coderun">Перейти к каталогу задач с CodeRun</a>
 
@@ -102,6 +102,9 @@ P.S. Данный проект создавался до появления ра
 | 1. Тепловые панели                        | 🟢      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/1.py">Перейти к решению</a> |
 | 2. Калибровка магического альтиметра      | 🟢      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/2.py">Перейти к решению</a> |
 | 3. Снаряжение                             | 🟢      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/3.py">Перейти к решению</a> |
+| 4. Артефакты                              | 🟠      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/4.py">Перейти к решению</a> |
+| 5. Маршрут до Пика Кода                   | 🟠      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/5.py">Перейти к решению</a> |
+
 
 
 
