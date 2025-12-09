@@ -106,8 +106,8 @@ P.S. Данный проект создавался до появления ра
 | 5. Маршрут до Пика Кода                   | 🟢      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/5.py">Перейти к решению</a> |
 | 6. Ориентирование на местности            | 🟢      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/6.py">Перейти к решению</a> |
 | 7. Осколки данных                         | 🟢      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/7.py">Перейти к решению</a> |
-| 8. Ориентирование на местности            | 🟢      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/8.py">Перейти к решению</a> |
-
+| 8. Числа в кристаллах                     | 🟢      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/8.py">Перейти к решению</a> |
+| 9. Испытание Глитчей                      | 🟢      | CodeRun Winter Challenge           | <a href="https://github.com/neuezeldaa/Algorithms_CodeRun/blob/main/CodeRun%20Winter%20Challenge/9.py">Перейти к решению</a> |
 
 
 
